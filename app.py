@@ -167,7 +167,7 @@ st.markdown("""
 <div class="app-header">
   <div style="font-size:36px">⬡</div>
   <div style="flex:1">
-    <p class="app-title">PDF TTD Injector</p>
+    <p class="app-title">PDF Anchor TTE Injector</p>
     <p class="app-sub">Sisipkan anchor tanda tangan elektronik ke PDF RKA — web edition</p>
   </div>
   <span class="app-badge">v4.0 WEB</span>
