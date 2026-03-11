@@ -168,7 +168,7 @@ st.markdown("""
   <div style="font-size:36px">⬡</div>
   <div style="flex:1">
     <p class="app-title">PDF Anchor TTE Injector</p>
-    <p class="app-sub">Sisipkan anchor tanda tangan elektronik ke PDF RKA — web edition</p>
+    <p class="app-sub">Sisipkan anchor tanda tangan elektronik ke Dokumen Anda — web edition</p>
   </div>
   <span class="app-badge">v4.0 WEB</span>
 </div>
@@ -204,7 +204,7 @@ with col_cfg:
     st.divider()
 
     # ── 2. Mode TTD (tabs) ─────────────────────
-    st.markdown('<div class="section-title accent-green">② MODE TTD</div>',
+    st.markdown('<div class="section-title accent-green">② MODE Anchor</div>',
                 unsafe_allow_html=True)
 
     tab_single, tab_multi = st.tabs(["✒  Single Anchor", "✒✒  Multi Anchor"])
@@ -275,8 +275,7 @@ with col_cfg:
                 unsafe_allow_html=True)
 
     do_merge   = st.checkbox("Gabung semua output jadi 1 PDF", value=True)
-    merge_name = st.text_input("Nama file merged", value="RKA_2026_TTD.pdf",
-                               disabled=not do_merge)
+    merge_name = st.text_input("Nama file merged", disabled=not do_merge)
 
     st.divider()
 
