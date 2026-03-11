@@ -14,7 +14,7 @@ from core import inject_anchors_bytes, merge_pdf_bytes
 #  PAGE CONFIG
 # ─────────────────────────────────────────────
 st.set_page_config(
-    page_title="PDF TTD Injector",
+    page_title="PDF Anchor TTE Injector",
     page_icon="✒️",
     layout="wide",
     initial_sidebar_state="collapsed",
